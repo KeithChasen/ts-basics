@@ -2,10 +2,10 @@ type B = {
     name: string
 }
 
-interface A extends B {
+interface AB extends B {
 
 }
 
-const b: A = {
+const b: AB = {
     name: 'Kostya'
 }
